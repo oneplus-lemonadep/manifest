@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github-ssh"
+      fetch="git@github.com:pixelos-oneplus9-series/"
+      sync-c="true"
+      sync-tags="false"
+      revision="fifteen" />
+  
+  <!-- Device Tree -->
+  <project name="android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="github-ssh" />
+  <project name="android_device_oneplus_lemonade" path="device/oneplus/lemonade" remote="github-ssh" />
+  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="github-ssh" />
+
+  <!-- OnePlus Hardware Specific -->
+  <project name="hardware_oplus" path="hardware/oplus" remote="github-ssh" />
+  
+  <!-- Kernel Source -->
+  <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="github-ssh" />
+  
+  <!-- Vendor Files -->
+  <project name="proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" remote="github-ssh" />
+  <project name="proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="github-ssh" />
+  <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="github-ssh" />
+
+  <!-- To fix Play Integrity -->
+  <project name="vendor_extra" path="vendor/extra" remote="github-ssh" />
+</manifest>
