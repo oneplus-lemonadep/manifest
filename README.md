@@ -6,6 +6,11 @@ mkdir .repo/local_manifests && wget https://raw.githubusercontent.com/pixelos-on
 
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 
+#To build for OnePlus 9 Pro aka lemonadep
 lunch aosp_lemonadep-bp1a-user
 
+#To build for OnePlus 9 aka lemonade
+lunch aosp_lemonade-bp1a-user
+
+#start Compilation
 mka bacon  -j$(nproc --all)
