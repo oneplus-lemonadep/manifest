@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github-https"
-            fetch="https://github.com/pixelos-oneplus9-series/"
+            fetch="https://github.com/oneplus-lemonadep/"
             sync-c="true"
             sync-tags="false"
             revision="fifteen" />
     <!-- Device Tree -->
     <project name="android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="github-https" />
-    <project name="android_device_oneplus_lemonade" path="device/oneplus/lemonade" remote="github-https" />
     <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="github-https" />
   
     <!-- OnePlus Hardware Specific -->
@@ -17,7 +16,6 @@
     <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="github-https" />
 
     <!-- Vendor Files -->
-    <project name="proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" remote="github-https" />
     <project name="proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="github-https" />
     <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="github-https" />
 
