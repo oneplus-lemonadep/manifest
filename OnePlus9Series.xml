@@ -13,7 +13,7 @@
     <project name="hardware_oplus" path="hardware/oplus" remote="github-https" />
   
     <!-- Kernel Source -->
-    <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="github-https" />
+    <project name="android_kernel_oneplus_sm8350_0" path="kernel/oneplus/sm8350" remote="github-https" />
 
     <!-- Vendor Files -->
     <project name="proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="github-https" />
