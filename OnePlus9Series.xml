@@ -24,8 +24,8 @@
     <project name="proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="gitlab-https" />
     <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gitlab-https" />
 
-    #<!-- PixelOS Signing Keys -->
-    #<project name="Signing_KEYS" path="vendor/aosp/signing/keys" remote="github-https" />
+    <!-- crdroidandroid Signing Keys -->
+    <project name="Signing_KEYS" path="vendor/lineage/signing/keys" remote="github-https" />
 
     <!-- To fix Play Integrity -->
     <project name="vendor_extra" path="vendor/extra" remote="github-https" />
