@@ -21,7 +21,7 @@
     <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="github-https" />
 
     <!-- Vendor Files -->
-    <project name="proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="gitlab-https" />
+    <project name="proprietary_vendor_oneplus-lemonadep" path="vendor/oneplus/lemonadep" remote="gitlab-https" />
     <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gitlab-https" />
 
     <!-- crdroidandroid Signing Keys -->
