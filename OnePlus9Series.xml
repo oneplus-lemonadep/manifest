@@ -10,7 +10,7 @@
     <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="github-http" />
   
     <!-- OnePlus Hardware Specific -->
-    <project name="android_hardware_oplus_" path="hardware/oplus" remote="github-http" />
+    <project name="hardware_oplus" path="hardware/oplus" remote="github-http" />
   
     <!-- Kernel Source -->
     <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="github-http" />
