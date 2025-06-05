@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <project path="device/oneplus/lemonadep" name="BlissRoms-Devices/android_device_oneplus_lemonadep" remote="github" revision="voyager" />
+  <project path="device/oneplus/sm8350-common" name="BlissRoms-Devices/android_device_oneplus_sm8350-common" remote="github" revision="voyager" />
+  <project path="vendor/oneplus/lemonadep" name="srgrusso/proprietary_vendor_oneplus_lemonadep" remote="gitlab" revision="bliss-v" />
+  <project path="vendor/oneplus/sm8350-common" name="srgrusso/proprietary_vendor_oneplus_sm8350-common" remote="gitlab" revision="bliss-v" />
+  <project path="kernel/oneplus/sm8350" name="BlissRoms-Devices/android_kernel_oneplus_sm8350" remote="github" revision="voyager" />
+  <project path="hardware/oplus" name="BlissRoms-Devices/android_hardware_oplus" remote="github" revision="voyager-op9pro" />
+  <project path="vendor/oplus/camera" name="srgrusso/vendor_oplus_camera" remote="gitlab" revision="bliss-v-op9pro" />
+</manifest>
