@@ -4,6 +4,6 @@
   <project path="device/oneplus/sm8350-common" name="oneplus-lemonadep/device_oneplus_sm8350-common" remote="github" revision="vic" />
   <project path="vendor/oneplus/lemonadep" name="oneplus-lemonadep/proprietary_vendor_oneplus_lemonadep" remote="github" revision="vic" />
   <project path="vendor/oneplus/sm8350-common" name="oneplus-lemonadep/proprietary-vendor-oneplus-sm8350-common" remote="github" revision="vic" />
-  <project path="kernel/oneplus/sm8350" name="oneplus-lemonadep/android_kernel_oneplus_sm8350" remote="github" revision="vic" />
+  <project path="kernel/oneplus/sm8350" name="oneplus-lemonadep/kernel_oneplus_sm8350" remote="github" revision="vic" />
   <project path="hardware/oplus" name="oneplus-lemonadep/hardware_oplus" remote="github" revision="vic" />
 </manifest>
