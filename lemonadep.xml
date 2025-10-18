@@ -3,7 +3,7 @@
     <remote name="github"
             fetch="https://github.com/oneplus-lemonadep/"
             sync-c="true"
-            sync-tags="false"
+            sync-tags="false" />
   <project path="device/oneplus/lemonadep" name="oneplus-lemonadep/device_oneplus_lemonadep" remote="github" revision="bka" />
   <project path="device/oneplus/sm8350-common" name="oneplus-lemonadep/device_oneplus_sm8350-common" remote="github" revision="bka" />
   <project path="vendor/oneplus/lemonadep" name="oneplus-lemonadep/proprietary_vendor_oneplus_lemonadep" remote="github" revision="bka" />
