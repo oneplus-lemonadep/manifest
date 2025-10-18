@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github-http"
+    <remote name="lemonadep"
             fetch="https://github.com/oneplus-lemonadep/"
             sync-c="true"
             sync-tags="false"
             revision="bka" />
     <!-- Device Tree -->
-    <project name="device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="github-http" />
-    <project name="device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="github-http" />
+    <project name="device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="lemonadep" />
+    <project name="device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="lemonadep" />
   
     <!-- OnePlus Hardware Specific -->
-    <project name="android_hardware_oplus" path="hardware/oplus" remote="github-http" />
+    <project name="android_hardware_oplus" path="hardware/oplus" remote="lemonadep" />
   
     <!-- Kernel Source -->
-    <project name="kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="github-http" />
+    <project name="kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="lemonadep" />
 
     <!-- Vendor Files -->
-    <project name="proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="github-http" />
-    <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="github-http" />
+    <project name="proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="lemonadep" />
+    <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="lemonadep" />
 
     <!--  Signing Keys -->
-    <project name="Signing_KEYS" path="vendor/lineage/signing/keys" remote="github-http" />
+    <project name="Signing_KEYS" path="vendor/lineage/signing/keys" remote="lemonadep" />
 
     <!-- To fix Play Integrity -->
-    <project name="vendor_extra" path="vendor/extra" remote="github-http" />
+    <project name="vendor_extra" path="vendor/extra" remote="lemonadep" />
 
 </manifest>
