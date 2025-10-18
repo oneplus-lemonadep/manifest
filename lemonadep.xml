@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/oneplus/lemonadep" name="oneplus-lemonadep/device_oneplus_lemonadep" remote="github" revision="vic" />
-  <project path="device/oneplus/sm8350-common" name="oneplus-lemonadep/device_oneplus_sm8350-common" remote="github" revision="vic" />
-  <project path="vendor/oneplus/lemonadep" name="oneplus-lemonadep/proprietary_vendor_oneplus_lemonadep" remote="github" revision="vic" />
-  <project path="vendor/oneplus/sm8350-common" name="oneplus-lemonadep/proprietary_vendor_oneplus_sm8350-common" remote="github" revision="vic" />
-  <project path="kernel/oneplus/sm8350" name="oneplus-lemonadep/kernel_oneplus_sm8350" remote="github" revision="vic" />
-  <project path="hardware/oplus" name="oneplus-lemonadep/android_hardware_oplus" remote="github" revision="vic" />
+  <project path="device/oneplus/lemonadep" name="oneplus-lemonadep/device_oneplus_lemonadep" remote="github" revision="bka" />
+  <project path="device/oneplus/sm8350-common" name="oneplus-lemonadep/device_oneplus_sm8350-common" remote="github" revision="bka" />
+  <project path="vendor/oneplus/lemonadep" name="oneplus-lemonadep/proprietary_vendor_oneplus_lemonadep" remote="github" revision="bka" />
+  <project path="vendor/oneplus/sm8350-common" name="oneplus-lemonadep/proprietary_vendor_oneplus_sm8350-common" remote="github" revision="bka" />
+  <project path="kernel/oneplus/sm8350" name="oneplus-lemonadep/kernel_oneplus_sm8350" remote="github" revision="bka" />
+  <project path="hardware/oplus" name="oneplus-lemonadep/android_hardware_oplus" remote="github" revision="bka" />
 </manifest>
