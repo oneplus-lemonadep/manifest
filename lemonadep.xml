@@ -4,7 +4,7 @@
             fetch="https://github.com/oneplus-lemonadep/"
             sync-c="true"
             sync-tags="false"
-            revision="lineage-23.1" />
+            revision="lineage-23.2" />
     <!-- Device Tree -->
     <project name="device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="lemonadep" />
     <project name="device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="lemonadep" />
